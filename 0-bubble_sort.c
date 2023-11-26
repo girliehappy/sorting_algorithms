@@ -28,7 +28,7 @@ void bubble_sort(int *array, size_t size)
 
 	if (array == NULL || size < 2)
 		return;
-	
+
 	while (bubble == false)
 	{
 		bubble = true;
@@ -38,9 +38,9 @@ void bubble_sort(int *array, size_t size)
 			{
 				swap_ints(array + h, array + h + 1);
 				print_array(array, size);
-                                bubble = false;
-                        }
-                }
-                len--;
-        }
+				bubble = false;
+			}
+		}
+		len--;
+	}
 }
